@@ -1,0 +1,39 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# 仮想環境
+venv/
+env/
+
+# データ関連
+data/raw/
+data/processed/
+data/PlantDoc-Dataset/
+*.csv
+*.tsv
+
+# モデル関連
+models/
+*.pt
+*.bin
+*.ckpt
+
+# 結果やログ
+results/
+logs/
+wandb/
+*.json
+*.txt
+
+# IDE関連
+.vscode/
+*.swp
+*.idea/
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+desktop.ini
